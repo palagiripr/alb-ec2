@@ -1,4 +1,4 @@
-resource "aws_instance" "example" {
+resource "aws_instance" "myinstance" {
   count         = var.instance_count
   ami           = var.ami_id
   instance_type = var.instance_type
