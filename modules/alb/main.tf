@@ -1,4 +1,4 @@
-resource "aws_lb" "example" {
+resource "aws_lb" "myalb" {
   name               = var.alb_name
   load_balancer_type = "application"
   internal           = false
