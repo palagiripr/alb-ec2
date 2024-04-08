@@ -8,6 +8,6 @@ resource "aws_instance" "myinstance" {
   # Other EC2 instance configurations...
 
   tags = {
-    Name = "example-${count.index}"
+    Name = "myinstance-${count.index}"
   }
 }
